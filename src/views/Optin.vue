@@ -4,7 +4,7 @@
       <b-col>
         <TextContent
           variant="header"
-          content="Here’s Your Attention Getting Headline - test"
+          content="Here’s Your Attention Getting Headline - test MODE"
           topMargin="50px"
           theme="red"
         />
