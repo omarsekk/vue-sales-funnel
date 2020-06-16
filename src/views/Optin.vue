@@ -5,8 +5,8 @@
         <TextContent
           variant="header"
           content="Here’s Your Attention Getting Headline - test MODE ACTIVATED"
-          topMargin="50px"
-          theme="red"
+          topMargin="30px"
+          theme="dark"
         />
         <TextContent
           variant="subheader"
@@ -63,6 +63,7 @@ export default {
   },
   methods: {
     handleSubmit(form) {
+      console.log(form);
       this.$router.push({ path: "/thank-you" });
     }
   }
