@@ -63,7 +63,6 @@ export default {
   },
   methods: {
     handleSubmit(form) {
-      console.log("Add New Subscriber", form.email);
       this.$router.push({ path: "/thank-you" });
     }
   }
